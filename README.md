@@ -24,6 +24,6 @@ DragIt is not a simple module , it helps you to drag your gui smoothly , have a 
 <details>
 <summary>Update Log</summary>
 1) Release v1.0<br>
-2) Bug fixes + Events for Dragging [DragStart,DragEnd] v1.1
+2) Bug fixes + Events for Dragging [DragStart,DragEnd] v1.1<br>
 3) Response Time & Snapping of UI v1.2
 </details>

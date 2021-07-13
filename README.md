@@ -3,8 +3,13 @@ A Luau module to create custom Draggable UI with a lot features.
 
 Developer Forum thread : https://devforum.roblox.com/t/dragit-an-open-source-module-for-custom-draggable-gui/1311940
 
+#What is DragIt?
+DragIt is Luau module created to support custom draggable gui, since roblox deprecated the `.Draggable` property developers<br>
+had to use custom methods to make a gui draggable.
+DragIt is not a simple module , it helps you to drag your gui smoothly , have a boundary , clip it to place holders and many other features.
+
 <details> 
-<summary>Features</summary>
+<summary> All Features</summary>
 1) Draggable Gui<br>
 2) Boundary limit for the gui<br>
 3) Clip guis to placeholder guis<br>

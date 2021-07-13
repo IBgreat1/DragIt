@@ -1,6 +1,7 @@
 # DragIt
 A Luau module to create custom Draggable UI with a lot features.
 
-<details> Features
+<details> 
+<summary>Features</summary>
 1
 </details>

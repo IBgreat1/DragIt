@@ -88,26 +88,6 @@ if IsClient then
 			end
 		end
 	end
-	
-	function GuiObject:GetDistanceFromUI(UI)
-		local aPos = UI.AbsolutePosition - centre
-		local bPos = self.Object.AbsolutePosition - centre
-		local bPos = aPos - bPos
-
-		local Dot = math.deg(math.atan2(bPos.X, bPos.Y))
-		
-		local Side = Utils.Side(Dot)
-		if Side == 'Up' then
-
-		elseif Side == 'Down' then
-
-		elseif Side == 'Left' then
-
-		elseif Side == 'Right' then
-
-		end
-	end
-	
 	coroutine.wrap(function()
 		while Settings.HoverIcon do
 			RS.RenderStepped:Wait()
